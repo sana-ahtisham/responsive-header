@@ -7,7 +7,7 @@
 }
 html {
   min-width: 100%;
-  min-height: 100vh;
+  min-height: 130vh;
 
 }
 body{
@@ -34,6 +34,14 @@ nav{
 .logo img{
   margin-bottom: -4px;
 }
+.imglaptop{
+  width: 50%;
+  height: auto;
+  
+} 
+.imglaptop img{
+  width: 100%;
+  height: 100%;}
 nav ul{
   float: right;
   margin-right: 20px;    
@@ -117,14 +125,12 @@ section{
 
 .textchange {
   color: rgb(57, 23, 108);
-  width: 50%;
-  height: 100%;
 }
 .textchange h1.display-md-4 {
  padding-bottom: 5px;
 }
 .textchange p.lead {
-  padding-block: 15px;
+  padding-block: 10px;
  }
  
 
@@ -158,13 +164,7 @@ section{
   border-image-slice: 1;
   background: transparent;
 }
-.imglaptop{
-  width: 50%;
-  height: 100%;
-} 
-.imglaptop img{
-  width: 100%;
-  height: 100%;}
+
 
 
 @media screen and (max-width:952px){
@@ -174,12 +174,21 @@ section{
   nav ul li>a{
       font-size: 16px;
   }
+  .imglaptop{
+    height: 85%;
+    
+  } 
 }
 @media screen and (max-width:858px){
+  .imglaptop{
+    height: 75%;
+    
+  } 
   .checkbtn{
       display: block;
   }
   ul{
+      
       position: fixed;
       width: 100%;
       height: 100vh;
@@ -204,20 +213,31 @@ section{
       left: 0;
   }
 }
-@media screen and (max-width:500px){
-  label.logo{
-      padding-inline: 10px;
+@media screen and (max-width:540px){
+  /* label.logo{
+      padding-inline: 5px;
       font-size: 13px;
   }
   nav ul li>a{
       font-size: 16px;
-  }
+  } */
+  .imglaptop{
+    width: 100%;
+    height: auto;
+    
+  } 
+  
 }
 @media screen and (max-width:280px){
   .logo{
       padding-inline: 5px;
      
   }
+  .imglaptop{
+    width: 100%;
+    height: auto;
+    
+  } 
  
   nav ul li>a{
       font-size: 16px;
